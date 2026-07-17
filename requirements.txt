@@ -1,0 +1,4 @@
+# Python dependencies for the tour_assistant module (Odoo.sh reads this at build time).
+# `requests` ships with Odoo, but we declare it explicitly since the chat
+# controller depends on it for outbound Anthropic API calls.
+requests
